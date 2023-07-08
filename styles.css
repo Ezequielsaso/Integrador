@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
+ 
   list-style-type: none;
 }
 html {
@@ -73,14 +73,13 @@ a {
   margin-bottom: 20px;
   z-index: 2;
   position: absolute;
-  width: 50%;
+  width: 40%;
   margin-inline-start: 350px;
   transform: translate(-800%);
   transition: all 500ms ease;
   border: 3px solid black;
   box-shadow: #e5f411 0px 0px 0px 3px;
   border-radius: 10px 20px;
-  padding: 22px;
   border: 1px solid black;
   border-top: none;
   background-color: rgb(247, 244, 244);
@@ -696,20 +695,22 @@ strong {
 }
 
 .cart img {
-  width: 75px;
-  height: 75px;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
  
 }
 
 .item-info p,
 h3 {
-  font-size: 17px;
+  font-size: 16px;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
 .item-handler {
-  margin-left: 160px;
+  margin-left: 130px;
   margin-top: 25px;
 }
 
