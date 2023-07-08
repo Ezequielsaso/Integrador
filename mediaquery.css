@@ -1,6 +1,6 @@
 @media (max-width: 1115.2px) {
   .navbar {
-    position: relative;
+  padding: 0px 15px;
   }
 
   .navbar-list.open-menu {
@@ -14,8 +14,11 @@
 
   .navbar-list {
     display: none;
-    left: 67px;
-    position: absolute;
+    width: 50%;
+    right: -120px;
+  
+    position:absolute;
+
     margin-top: 48px;
     color: rgb(115, 115, 115);
     flex-direction: column;
@@ -26,7 +29,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0px 0px 15px 15px;
-    padding: 50px 112.5px;
+    padding: 50px 155.5px;
     z-index: 2;
     font-weight: 600;
     font-size: 18px;
@@ -81,6 +84,15 @@
   }
 }
 
+.cart{
+
+padding: 15px 200px;
+justify-content: center;
+text-align: center;
+  position: absolute;
+  
+}
+
 /* Arreglar Sobre Nosotros */
 
 @media (max-width: 1030px) {
@@ -124,6 +136,13 @@
     display: flex;
     flex-direction: column;
   }
+.cart {
+ right: 2px;
+
+}
+
+
+
 }
 
 /* Arreglar Mobile 430px */
@@ -154,7 +173,5 @@
     display: flex;
     flex-direction: column;
   }
-  .navbar-list {
-    padding: 2px;
-  }
+  
 }
