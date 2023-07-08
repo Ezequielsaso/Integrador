@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Proyecto Integrador</title>
+    <link
+      rel="stylesheet"
+      href="/styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/mediaquery.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="container-navbar">
+      <div class="container-logo">
+        <h2 id="titulo-navbar"><strong>PCS</strong>tore</h2>
+      </div>
+
+      <div class="menu-label">
+        <img
+          src="bars-solid.svg"
+          class="icon-menu"
+        />
+      </div>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a
+              id="a"
+              href="iniciosesion.html"
+              >Iniciar Sesión</a
+            >
+          </li>
+          <li>
+            <a
+              id="a"
+              href="registro.html"
+              >Registrarse</a
+            >
+          </li>
+          <li>
+            <a
+              id="a"
+              href="#"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              id="a"
+              href="#titulo-productos"
+              >Productos</a
+            >
+          </li>
+
+          <li>
+            <a
+              id="a"
+              href="#sobrenosotros"
+              >Sobre Nosotros
+            </a>
+          </li>
+          <li>
+            <a
+              id="a"
+              href="#contactanos"
+            >
+              Contactanos</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="cart-label">
+        <i
+          class="fa-solid fa-cart-shopping"
+          id="carrito"
+        >
+          <div class="cart-bubble">0</div>
+        </i>
+      </div>
+    </header>
+
+    <div class="cart">
+      <h1>Tus <strong>Productos</strong></h1>
+      <div class="cart-container">
+        <!-- <div class="cart-item">
+          <img
+            src="/monitor.png"
+            alt="Imagen de la compra"
+          />
+          <div class="item-info">
+            <h3 class="item-title">NOMBRE</h3>
+            <p class="item-price">$---</p>
+           </div>
+           <div class="item-handler">
+            <span
+              class="quantity-handler down"
+              data-id="ID">-</span>
+            <span class="item-quantity">Cantidad</span>
+            <span
+              class="quantity-handler up"
+              data-id="ID">+</span>
+          </div>
+        </div>  -->
+      </div> 
+      
+
+      <span class="divider"></span>
+
+      <div class="cart-total">
+        <p>Total</p>
+        <span class="total">100$</span>
+      </div>
+      <button class="btn-buy">Comprar</button>
+     
+    </div>
+
+
+    <h1 id="titulo">Bienvenido a <strong>PCS</strong>tore.</h1>
+    <main class="container-main">
+      <section id="hero">
+        <div class="container-info">
+          <h1 id="empresa">Empresa <strong>PCS</strong>tore</h1>
+          <p id="decoracion">
+            Esta empresa tiene los mejores productos de computadora a un buen
+            precio y calidad. Vea los productos, no se arrepentirá.
+          </p>
+        </div>
+        <div class="container-img">
+          <h2>Producto <strong>Destacado</strong></h2>
+          <img
+            src="/ryzen.webp"
+            class="logo2"
+          />
+          <p>Procesador Ryzen 3 3600</p>
+          <p id="precio">$75200</p>
+          <p class="precio2">$65240</p>
+
+          <button class="boton-compra">Comprar</button>
+        </div>
+      </section>
+      <section class="products-container">
+        <div class="products">
+          <h1 id="titulo-productos">Nuestros Productos</h1>
+          <p id="informacion">
+            Tenemos variedades de Componentes hasta Mouses.🖱️ 
+          </p>
+          <div class="container-card">
+            <div class="card">
+              <div class="contenido">
+                <h2 id="centrado">Logitech G703</h2>
+                <img
+                  src="/Logitech.png"
+                  class="producto2"
+                />
+                <p class="precio2">Precio $14999</p>
+                <p>
+                  Mouse de juego Logitech G Series Lightspeed Hero G703 negro
+                  RGB
+                </p>
+              </div>
+              <div class="container-buttons">
+                <button class="boton-compra2" data-id="1">Comprar</button>
+                <button class="boton-compra3">Ver Detalles</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="contenido2">
+                <h2 id="centrado">Redragon Kumara K552</h2>
+                <img
+                  src="/ESTA-VA-RGB.png"
+                  class="producto6"
+                />
+                <p class="precio2">Precio $21000</p>
+
+                <p>
+                  Teclado Gamer Redragon Kumara K552 QWERTY Outemu Red español
+                  latinoamérica color negro con luz RGB
+                </p>
+              </div>
+              <div class="container-buttons">
+                <button class="boton-compra2" data-id="2">Comprar</button>
+                <button class="boton-compra3">Ver Detalles</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="contenido3">
+                <h2 id="centrado">Motherboard Gigabyte B450M DS3H V2 AM4</h2>
+                <img
+                  src="/mother.png"
+                  class="producto3"
+                />
+                <p class="precio2">Precio $55500</p>
+
+                <p id="parrafo">
+                  Marca Gigabyte Línea B450M Modelo B450M DS3H V2 Versión N/A
+                </p>
+              </div>
+              <div class="container-buttons">
+                <button class="boton-compra2" data-id="3">Comprar</button>
+                <button class="boton-compra3">Ver Detalles</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-card2">
+            <div class="card">
+              <div class="contenido">
+                <h2 id="centrado">Intel Core i5-9400F</h2>
+                <img
+                  src="/processador_intel_core_i5_9100f_2_90ghz_9mb_cache_bx80684i59400f_101523_1_d61dfcee451b43e881e1c67b81c5dcee.webp"
+                  class="producto2"
+                />
+                <p class="precio2">Precio $45500</p>
+
+                <p>
+                  Procesador gamer Intel Core i5-9400F BX80684I59400F de 6
+                  núcleos y 4.1GHz de frecuencia
+                </p>
+              </div>
+              <div class="container-buttons">
+                <button class="boton-compra2" data-id="4">Comprar</button>
+                <button class="boton-compra3">Ver Detalles</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="contenido2">
+                <h2 id="centrado">RX 550 AMD</h2>
+
+                <img
+                  src="/RX550.png"
+                  class="producto"
+                />
+                <p class="precio2">Precio $31300</p>
+
+                <p>
+                  Placa de video AMD ASRock Phantom Gaming Radeon RX 500 Series
+                  RX 550 PHANTOM G R RX550 2G 2GB
+                </p>
+              </div>
+              <div class="container-buttons">
+                <button class="boton-compra2" data-id="5">Comprar</button>
+                <button class="boton-compra3">Ver Detalles</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="contenido3">
+                <h2 id="centrado">MONITOR LED SAMSUNG</h2>
+                <img
+                  src="/monitor.png"
+                  class="producto3"
+                />
+                <p class="precio2">Precio $55500</p>
+
+                <p id="parrafo">
+                  Una experiencia visual de calidad Este monitor de 24" te va a
+                  resultar cómodo para estudiar o trabajar.
+                </p>
+              </div>
+              <div class="container-buttons">
+                <button class="boton-compra2" data-id="6">Comprar</button>
+                <button class="boton-compra3">Ver Detalles</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sobrenosotros">
+        <div class="container-info2">
+          <h1>Sobre Nosotros</h1>
+
+          <p id="texto">
+            <strong>PCS</strong>tore Brinda servicio a millones de usuarios y
+            crea un mercado online para la negociación de una amplia variedad de
+            bienes y servicios de una forma fácil, segura y eficiente.
+          </p>
+        </div>
+      </section>
+
+      <section id="contactanos">
+        <div class="container-contactanos">
+          <h1 id="informacion-contacto">INFORMACIÓN DE CONTACTO</h1>
+          <h3 id="informacion-contacto">+54 9 11 1242-2412</h3>
+          <h3 id="informacion-contacto">PCStore@gmail.com</h3>
+        </div>
+        <div class="formulario">
+          <h1 id="titulo_formulario">Envia un mensaje</h1>
+          <input
+            class="recuadros"
+            type="text"
+            name="nombres"
+            id="nombres"
+            placeholder="Ingrese con sus Nombres"
+          />
+          <input
+            class="recuadros"
+            type="text"
+            name="telefono/celular"
+            id="telefono/celular"
+            placeholder="Ingrese su Telefono/Celular"
+          />
+          <input
+            class="recuadros"
+            type="text"
+            name="correo"
+            id="correo"
+            placeholder="Ingrese su Correo"
+          />
+
+          <label for="mensaje">Mensaje </label>
+          <textarea id="mensaje"></textarea>
+          <input
+            type="button"
+            value="Enviar Mensaje"
+            id="btnSend"
+          />
+
+          <p id="terminos_condiciones">
+            Estoy de acuerdo con
+            <a
+              id="#"
+              href="#"
+              >Términos y Condiciones</a
+            >
+            <input
+              type="checkbox"
+              id="menu-toggle2"
+            />
+          </p>
+        </div>
+      </section>
+      <footer class="container-footer">
+        <img
+          src="/logo.jpg"
+          class="logo3"
+        />
+        <div class="container-mapa">
+          <h2 id="titulo-mapa">Donde Nos Encontramos</h2>
+          <iframe
+            class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2105857936717!2d-58.5138643849471!3d-34.624118280454105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc82d9d0b7425%3A0x1b69795d5c1441f6!2zUGl6emVyw61hIEVsIEZvcnTDrW4!5e0!3m2!1ses!2sar!4v1675338376593!5m2!1ses!2sar"
+            width="300"
+            height="150"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="box">
+          <h1><strong>PCS</strong>tore</h1>
+          <p id="informacion">
+            Esta empresa tiene los mejores productos de computadora a un buen
+            precio y calidad. Vea los productos, no se arrepentirá.
+          </p>
+
+          <ul class="sociales">
+            <li>
+              <a
+                href=""
+                class="fa fa-brands fa-google"
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="fab fa-facebook-f"
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="fa-brands fa-twitter"
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="fa-brands fa-youtube"
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="fa fa-linkedin-square"
+              ></a>
+            </li>
+          </ul>
+          <p id="copy">Copyright © 2023 PCStore. All Rights Reserved.</p>
+        </div>
+      </footer>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>

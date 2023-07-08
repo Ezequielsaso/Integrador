@@ -1,0 +1,160 @@
+@media (max-width: 1115.2px) {
+  .navbar {
+    position: relative;
+  }
+
+  .navbar-list.open-menu {
+ 
+     display: flex;
+ 
+      }
+    
+      
+   
+
+  .navbar-list {
+    display: none;
+    left: 67px;
+    position: absolute;
+    margin-top: 48px;
+    color: rgb(115, 115, 115);
+    flex-direction: column;
+    border: 3px solid rgb(235, 198, 35);
+    box-shadow: 2px 5px 20px;
+    background-image: url(/logo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 15px 15px;
+    padding: 50px 112.5px;
+    z-index: 2;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+
+  .icon-menu {
+  display: inline-block;
+  
+  }
+}
+
+/* Modificacion Productos */
+@media (max-width: 976px) {
+  .container-card {
+    display: grid;
+  }
+
+  .container-card2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Modificacion Contacto */
+@media (max-width: 1273px) {
+  #contactanos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+  }
+  .formulario {
+    width: 50%;
+  }
+}
+
+/* arreglar formulario de contacto ya que se rompe al 1030px */
+
+@media (max-width: 890px) {
+  .container-contactanos {
+    width: 67%;
+  }
+}
+
+@media (max-width: 890px) {
+  .formulario {
+    width: 67%;
+  }
+}
+
+/* Arreglar Sobre Nosotros */
+
+@media (max-width: 1030px) {
+  .container-info2 {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 590px) {
+  #texto {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Arreglar Sobre nosotros */
+
+@media (max-width: 730px) {
+  .container-info2 {
+    padding: 15px 50px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 566px) {
+  .container-info2 {
+    padding: 5px 10px;
+    width: 100%;
+  }
+}
+/* Poner en colum el footer */
+
+@media (max-width: 753px) {
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Arreglar Mobile 430px */
+
+@media (max-width: 520px) {
+  #contactanos {
+    width: 100%;
+    padding: 20px -900px;
+  }
+}
+
+/* Achicar cards */
+@media (max-width: 540px) {
+  .formulario {
+    padding: 20px 20px;
+    margin-left: 10px;
+  }
+  .container-contactanos {
+    padding: 20px 20px;
+    margin-left: 10px;
+  }
+}
+
+/* Poner en Colum el producto destacado */
+
+@media (max-width: 417px) {
+  #hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-list {
+    padding: 2px;
+  }
+}
