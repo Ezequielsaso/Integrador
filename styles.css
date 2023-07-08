@@ -396,6 +396,10 @@ strong {
   justify-content: center;
 }
 #titulo-productos {
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-left: 350px;
 }
 .card:hover {
   transform: translateY(-5%);

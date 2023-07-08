@@ -46,11 +46,17 @@
 @media (max-width: 976px) {
   .container-card {
     display: grid;
+    margin-left: 85px;
   }
+
+#titulo-productos{
+  margin-left: 130px;
+}
 
   .container-card2 {
     display: flex;
     flex-direction: column;
+    margin-left: 85px;
   }
 }
 
