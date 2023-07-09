@@ -174,13 +174,27 @@ console.log(e)
 }
 
 
+const comprarProducto = (e) => {
+  if (e.target.classList.contains("btn-buy")) {
+    productsCard.innerHTML = "";
+    carrito = []
+    carritoHTML();
+
+    sincronizarStorage();
+
+ }
+console.log(e)
+}
+
+
 // Funcion inicializadora
 const init = () => {
   //logica del carrito y su respectivo menu hamburguesa!
   menuBtn.addEventListener("click", toggleMenu);
   cartBtn.addEventListener("click", toggleCart);
   cartMenu.addEventListener("click", vaciarProducto)
-  
+  cartMenu.addEventListener("click", comprarProducto)
+
 
   // logica de renderizar el carrito
   productsContainer.addEventListener("click", agregarCurso);
